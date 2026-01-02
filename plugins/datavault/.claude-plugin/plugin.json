@@ -1,7 +1,7 @@
 {
   "name": "datavault",
   "description": "Data Vault 2.0 Entwicklungs-Plugin mit MCP-Server Integration. Enthält Commands für Hub/Satellite/Link Erstellung, Datenbank-Exploration und dbt-Workflows.",
-  "version": "2.0.3",
+  "version": "2.1.1",
   "author": {
     "name": "Daniel Fellner"
   },
