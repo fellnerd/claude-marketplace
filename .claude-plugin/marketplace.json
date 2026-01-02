@@ -18,6 +18,8 @@
       "author": {
         "name": "Daniel Fellner"
       },
+      "repository": "https://github.com/fellnerd/claude-marketplace",
+      "homepage": "https://github.com/fellnerd/claude-marketplace#datavault",
       "keywords": ["storage", "data", "vault", "persistence", "json", "mcp", "agents"],
       "category": "productivity",
       "license": "MIT",
