@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "path": "${CLAUDE_PLUGIN_ROOT}/hooks/pre-tool-call.md"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "prompt",
+            "path": "${CLAUDE_PLUGIN_ROOT}/hooks/post-tool-call.md"
+          }
+        ]
+      }
+    ]
+  }
+}
