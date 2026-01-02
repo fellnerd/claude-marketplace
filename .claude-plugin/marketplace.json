@@ -13,17 +13,17 @@
     {
       "name": "datavault",
       "source": "datavault",
-      "description": "Sicherer lokaler Datenspeicher für strukturierte Daten mit JSON-basierter Persistenz, inkl. MCP-Server und spezialisierten Agents",
-      "version": "1.1.0",
+      "description": "Data Vault 2.0 Entwicklungs-Plugin mit MCP-Server Integration. Enthält Commands für Hub/Satellite/Link Erstellung, Datenbank-Exploration und dbt-Workflows.",
+      "version": "2.0.0",
       "author": {
         "name": "Daniel Fellner"
       },
       "repository": "https://github.com/fellnerd/claude-marketplace",
       "homepage": "https://github.com/fellnerd/claude-marketplace#datavault",
-      "keywords": ["storage", "data", "vault", "persistence", "json", "mcp", "agents"],
-      "category": "productivity",
+      "keywords": ["datavault", "dbt", "data-warehouse", "mcp", "agents", "etl"],
+      "category": "data-engineering",
       "license": "MIT",
-      "tags": ["data-management", "mcp-server", "ai-agents"]
+      "tags": ["data-vault", "mcp-server", "ai-agents", "dbt", "sql"]
     }
   ]
 }
