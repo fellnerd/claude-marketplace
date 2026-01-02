@@ -6,13 +6,12 @@
   },
   "metadata": {
     "description": "Ein persönlicher Claude Code Plugin Marketplace mit nützlichen Tools und Erweiterungen",
-    "version": "1.0.0",
-    "pluginRoot": "./plugins"
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "datavault",
-      "source": "datavault",
+      "source": "./plugins/datavault",
       "description": "Data Vault 2.0 Entwicklungs-Plugin mit MCP-Server Integration. Enthält Commands für Hub/Satellite/Link Erstellung, Datenbank-Exploration und dbt-Workflows.",
       "version": "2.0.0",
       "author": {
