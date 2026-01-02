@@ -1,0 +1,27 @@
+{
+  "name": "dimetrics-marketplace",
+  "owner": {
+    "name": "Daniel Fellner",
+    "email": "admin@dimetrics.io"
+  },
+  "metadata": {
+    "description": "Ein persönlicher Claude Code Plugin Marketplace mit nützlichen Tools und Erweiterungen",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "datavault",
+      "source": "datavault",
+      "description": "Sicherer lokaler Datenspeicher für strukturierte Daten mit JSON-basierter Persistenz, inkl. MCP-Server und spezialisierten Agents",
+      "version": "1.1.0",
+      "author": {
+        "name": "Daniel Fellner"
+      },
+      "keywords": ["storage", "data", "vault", "persistence", "json", "mcp", "agents"],
+      "category": "productivity",
+      "license": "MIT",
+      "tags": ["data-management", "mcp-server", "ai-agents"]
+    }
+  ]
+}

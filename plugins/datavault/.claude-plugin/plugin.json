@@ -1,0 +1,22 @@
+{
+  "name": "datavault",
+  "description": "Sicherer lokaler Datenspeicher für strukturierte Daten mit JSON-basierter Persistenz. Ermöglicht das Speichern, Abrufen und Verwalten von Schlüssel-Wert-Paaren.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel"
+  },
+  "commands": "./commands",
+  "agents": [
+    "./agents/datavault-haiku-001.md",
+    "./agents/datavault-sonnet-001.md"
+  ],
+  "mcpServers": {
+    "datavault-mcp": {
+      "type": "http",
+      "url": "http://10.0.0.25:3001/mcp/v1/messages",
+      "headers": {
+        "Authorization": "Bearer 733e343ed8702516343ca0145b49d6b68ab0b35e09cbdc8e7b318ab0dd524ece"
+      }
+    }
+  }
+}
