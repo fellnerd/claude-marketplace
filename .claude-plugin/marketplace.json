@@ -28,7 +28,7 @@
       "name": "my-mac-plugin",
       "source": "./plugins/my-mac-plugin",
       "description": "macOS Produktivitäts-Plugin mit nützlichen Befehlen für Entwickler auf Mac.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": {
         "name": "Daniel Fellner"
       },
