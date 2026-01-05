@@ -23,6 +23,21 @@
       "category": "data-engineering",
       "license": "MIT",
       "tags": ["data-vault", "mcp-server", "ai-agents", "dbt", "sql"]
+    },
+    {
+      "name": "my-mac-plugin",
+      "source": "./plugins/my-mac-plugin",
+      "description": "macOS Produktivitäts-Plugin mit nützlichen Befehlen für Entwickler auf Mac.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daniel Fellner"
+      },
+      "repository": "https://github.com/fellnerd/claude-marketplace",
+      "homepage": "https://github.com/fellnerd/claude-marketplace#my-mac-plugin",
+      "keywords": ["macos", "productivity", "developer-tools", "system"],
+      "category": "utilities",
+      "license": "MIT",
+      "tags": ["macos", "cleanup", "system-info", "ports"]
     }
   ]
 }

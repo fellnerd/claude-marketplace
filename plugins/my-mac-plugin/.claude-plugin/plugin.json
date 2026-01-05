@@ -1,0 +1,10 @@
+{
+  "name": "my-mac-plugin",
+  "description": "macOS Produktivitäts-Plugin mit nützlichen Befehlen für Entwickler auf Mac.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Daniel Fellner"
+  },
+  "commands": "./commands",
+  "agents": []
+}
